@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Proofreading 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-29 16:55+0900\n"
+"PO-Revision-Date: 2017-05-29 16:59+0900\n"
+"Last-Translator: Fumito MIZUNO <ounziw@gmail.com>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../controller.php:23
+msgid "Proofreading support using Yahoo API."
+msgstr "Yahoo API を使用した、テキスト校正支援ツール"
+
+#: ../../../controller.php:28 ../../../controller.php:80
+#: ../../../controller.php:86
+msgid "Proofreading"
+msgstr "校正"
+
+#: ../../../controller.php:37
+msgid "Proofreading Settings"
+msgstr "校正の設定"
+
+#: ../../../controller.php:37
+msgid "You can set Yahoo API here."
+msgstr "Yahoo API の設定ができます。"
+
+#: ../../../controller.php:37
+msgid "Yahoo API is required to connect Yahoo and execute proofreading."
+msgstr "校正支援ツールを実行するには、Yahoo APIが必要です。"
+
+#: ../../../controllers/single_page/dashboard/system/seo/proofreading.php:22
+msgid "Settings saved."
+msgstr "設定が保存されました。"
+
+#: ../../../controllers/single_page/dashboard/system/seo/proofreading.php:39
+msgid ""
+"Disallowed charcters found in HTML tag and/or ID/class.  Allowed characters: "
+"number, alphabets, hyphen underscore, dot, and sharp."
+msgstr ""
+"HTMLタグまたはID/classに許可されていない文字があります。許可されている文字: "
+"数字、アルファベット、ハイフン、アンダースコア、ドット、シャープ"
+
+#: ../../../controllers/tools/proofreading.php:40
+msgid "WARNING: Yahoo API Key is not set."
+msgstr "警告: Yahoo API キーが設定されていません。"
+
+#: ../../../controllers/tools/proofreading.php:47
+msgid "Get the Content on this Page"
+msgstr "このページのコンテンツを取得する"
+
+#: ../../../controllers/tools/proofreading.php:52
+msgid "Length of the content: "
+msgstr "文字の長さ: "
+
+#: ../../../controllers/tools/proofreading.php:52
+msgid ""
+"Long contents may result in time out or other errors. Length depends on your "
+"server. We recommend up to 3000."
+msgstr ""
+"コンテンツが長いと、タイムアウトやその他のエラーになることがあります。長さは"
+"サーバーに依存します。3000字以内を推奨します。"
+
+#: ../../../controllers/tools/proofreading.php:54
+msgid "Submit"
+msgstr "送信する"
+
+#: ../../../controllers/tools/proofreading.php:58
+msgid "Proofreading results will be shown here."
+msgstr "校正結果をここに表示します。"
+
+#: ../../../single_pages/dashboard/system/seo/proofreading.php:8
+msgid "Enter your Yahoo API."
+msgstr "Yahoo APIを入力してください。"
+
+#: ../../../single_pages/dashboard/system/seo/proofreading.php:14
+msgid "SSL"
+msgstr "SSL"
+
+#: ../../../single_pages/dashboard/system/seo/proofreading.php:18
+msgid "Use SSL to connect to Yahoo."
+msgstr "Yahoo への接続に SSL を使用する"
+
+#: ../../../single_pages/dashboard/system/seo/proofreading.php:21
+msgid "If your environment allows, it is recommended to enable SSL."
+msgstr "SSLが利用可能な環境であれば、有効にすることを推奨します。"
+
+#: ../../../single_pages/dashboard/system/seo/proofreading.php:24
+msgid "Optional: HTML Tag and/or ID/class for your main contents"
+msgstr "オプション: メインコンテンツの HTML タグ、ID/class"
+
+#: ../../../single_pages/dashboard/system/seo/proofreading.php:28
+msgid ""
+"If you enter the HTML and/or ID/class such as main, div#main or div.main-"
+"contents, this addon will search the content according to the specified tag "
+"and/or ID/class. If you leave this field blank, div.ccm-page will be used as "
+"default."
+msgstr ""
+"main, div#main あるいは div.main-contents のように、HTMLタグとID/classのいず"
+"れかまたは両方を記入すると、このアドオンは指定されたタグ・ID/classのコンテン"
+"ツを検索します。空白にしておくと、デフォルト値 div.ccm-page を使用します。"
+
+#: ../../../single_pages/dashboard/system/seo/proofreading.php:32
+msgid "Save"
+msgstr "保存"
+
+#~ msgid "ID/class must be alphanumeric."
+#~ msgstr "ID/class は英数字で記入してください。"
